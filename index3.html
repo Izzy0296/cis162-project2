@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Journey Begins</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav>
@@ -29,5 +31,45 @@
     <div class="grid-item">Quisque vitae est at dolor ullamcorper vehicula.</div>
     <div class="grid-item">Sed aliquam urna id quam facilisis pellentesque.</div>
   </main>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Why visit?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>There are many reasons to come travel and visit Germany.</strong> With its rich history, attractions, and delicious food its definitely a place to come see in person. Germany is known for its festivals especially one of their biggest one Oktoberfest and their Christmas market that take place throughout winter. If you are lucky enough you'll even catch and see a castle here.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Fun Facts
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Fun Facts.</strong> German, their native language is the third most popular langauge taught around the world. Germany is the home of the Autobahn, meaning there is no gerneral speed limit on many sections of their highways, which makes it a pefect place for any speed enthusiasts. Germany has over twenty five thousand castles, which makes it a destination to go visit. Another cool facts is that Germany were the original invenotrs of the Christmas Tree. They started the tradition of decororatin Christmas trees in the 16th century, which now the whole world loves doing.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Attractions 
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Must see places in Germany!</strong> If ypu ever getbthe opportunity to travel to this country, their are many attractions that you can visit. The Berlin wall, which has a rich history, a tale of Germany's Cold War history. The Heidelberg Catle a must see! A stunning castle overlooking the Neckar River. Christmas Markets are a nation wide tradition that happens all over Europe where you can find all sorts of vendors with food, gifts, and stunning decorations all around.
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
